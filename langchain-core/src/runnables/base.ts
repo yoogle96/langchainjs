@@ -5,7 +5,6 @@ import {
   type TraceableFunction,
   isTraceableFunction,
 } from "langsmith/singletons/traceable";
-
 import type { RunnableInterface, RunnableBatchOptions } from "./types.js";
 import {
   CallbackManager,
